@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'Meno Banner Extra Condensed Regular';
+  src: url('MenoBannerExtraCondensed-Light.otf') format('truetype');
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffffff; /* Light gray background */
+}
+
+.background-blue {
+  background: linear-gradient(180deg, #fbd0ff, #ffffff); /* Gradient background */
+  color: #1f1e1e;
+}
+
+.background-light-gray {
+  background: #ffffff;
+}
+
+.background-white {
+  background: #fff;
+}
+
+header, section, footer {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Added margin for better separation */
+}
+
+/* Add this style to remove margin from all sections and divs */
+body > * {
+  margin: 0;
+}
+
+.header-subtitle {
+  font-style: italic;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  margin: 5px;
+  padding: 10px;
+  background: linear-gradient(180deg, #3498db, #2980b9);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#interests {
+  background-color: #f8f8ff;
+}
+
+.skills-list li:hover {
+  background: linear-gradient(180deg, #2980b9, #2471a3);
+}
+
+.qul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 22px;
+  margin: 0; /* Remove default margin */
+}
+
+.qul li {
+  padding: 10px;
+}
+
+#motivation {
+  background-color: #feecee;
+  
+}
+
+#japanese-proficiency {
+  background-color: #f0ffff; /* Add a background color for the Japanese Proficiency section */
+}
+
+
+#contact footer {
+  background-color: #302f2f; /* Black background color */
+}
+#contact{
+  background-color: #302f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  font-size: 1.2em;
+  margin: 0;
+  color: #ffffff; /* White text color for better visibility on black background */
+  background-color: #302f2f;
+}
+
+.container1, .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between; /* Improved spacing */
+  align-items: center;
+  height: 100%;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px; /* Increased margin for better spacing */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #1f1e1e;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #ffd700;
+}
+
+/* New styles for about section */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  font-family: 'Meno Banner Extra Condensed Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for projects section */
+#projects {
+  background-color: #f0c0c0; /* Add a background color for the Projects section */
+  text-align: center; /* Center the projects section content */
+  padding: 40px 0; /* Adjust padding for better spacing */
+  max-width: 80%; /* Set the maximum width to 80% */
+  margin: 0 auto; /* Center the section */
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ff6347; /* Set a red background color for the project card */
+  color: #fff; /* Set text color to white */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Add smooth transition on hover */
+}
+
+.project:hover {
+  background-color: #cc4a3c; /* Change background color on hover */
+}
